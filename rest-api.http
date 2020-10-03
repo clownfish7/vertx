@@ -1,0 +1,17 @@
+POST http://localhost:8888/x-www-form-urlencode
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+
+name=clownfish7
+
+###
+
+POST http://localhost:8888/json
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"clownfish7"}
+
+###
